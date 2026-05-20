@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 
 const path = require("path");
+require("dotenv").config();
 const { convertToFacturX } = require("../src");
 
 function printUsage() {

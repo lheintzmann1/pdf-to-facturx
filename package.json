@@ -9,6 +9,7 @@
     "facturx": "bin/cli.js"
   },
   "dependencies": {
+    "dotenv": "^17.4.2",
     "form-data": "^4.0.0",
     "node-fetch": "^2.6.9"
   }

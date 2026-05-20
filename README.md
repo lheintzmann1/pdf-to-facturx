@@ -11,8 +11,8 @@ npm install
 ## CLI
 
 ```bash
-SUPERPDP_CLIENT_ID=your_id SUPERPDP_CLIENT_SECRET=your_secret \
-  bin/cli.js --pdf samples/invoice.pdf --invoice samples/invoice.xml --out samples/facturx.pdf --timeout 30000
+cp .env.example .env
+bin/cli.js --pdf samples/invoice.pdf --invoice samples/invoice.xml --out samples/facturx.pdf --timeout 30000
 ```
 
 ## Library
