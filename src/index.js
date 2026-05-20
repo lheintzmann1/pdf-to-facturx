@@ -169,13 +169,3 @@ async function convertToFacturX(options) {
 module.exports = {
   convertToFacturX,
 };
-
-// Example (adapt paths to your files):
-// const { convertToFacturX } = require("./index");
-// convertToFacturX({
-//   clientId: process.env.SUPERPDP_CLIENT_ID,
-//   clientSecret: process.env.SUPERPDP_CLIENT_SECRET,
-//   pdfPath: "./samples/invoice.pdf",
-//   invoicePath: "./samples/invoice.xml",
-//   outputPath: "./samples/facturx.pdf",
-// }).then(() => console.log("Done"));
